@@ -26,8 +26,8 @@
 .circural-button {
   border: none;
   background-color: rgba(241, 246, 247, 0.15);
-  width: 8rem;
-  height: 8rem;
+  width: 30%;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
 }
 
@@ -39,7 +39,7 @@
 
 .circural-button__img {
   width: 6rem;
-  height: 6rem;
+  aspect-ratio: 1 / 1;
 }
 
 .header__title {
@@ -53,4 +53,17 @@
   grid-row: 2 / span 3;
   text-align: end;
   font-size: 2.25rem;
+}
+
+/* main */
+
+.lader-section {
+  margin-top: 20rem;
+  background-image: url("../src/images/lader_bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(9, 1fr);
 }
