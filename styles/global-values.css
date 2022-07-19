@@ -1,0 +1,22 @@
+:root {
+  --bg-100: #fff;
+  --bg-200: #f1f6f7;
+
+  --primary-100: #f26440;
+  --secondary-100: #297373;
+  --tiertiary-100: #fef2f2;
+
+  --font-100: #2a2a46;
+
+  font-size: 1vw;
+}
+
+body {
+  position: relative;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  color: var(--font-100);
+  margin: 0;
+}

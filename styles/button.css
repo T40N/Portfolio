@@ -1,0 +1,41 @@
+.button {
+  position: relative;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline solid var(--primary-100) 3px;
+  width: 10rem;
+  background-color: transparent;
+}
+
+.button:focus,
+.button:hover {
+  cursor: pointer;
+  text-decoration: underline overline solid var(--primary-100) 3px;
+}
+
+.button:active > .button__colored-container {
+  background-color: var(--primary-100);
+}
+
+.button__p {
+  font-size: 1.5rem;
+  display: block;
+  text-align: right;
+}
+
+.button__p--colored {
+  color: var(--bg-200);
+}
+
+.button__colored-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: var(--secondary-100);
+  transition: background-color 0.1s ease-in-out;
+}

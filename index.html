@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global-values.css" />
+    <link rel="stylesheet" href="./styles/main-nav.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
+    <link rel="stylesheet" href="./styles/index-styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bartosz Ratajczyk</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__nav">
+        <h1 aria-label="Logo" class="header__logo"><span>Ba</span>rtek</h1>
+        <nav class="nav__links">
+          <a href="/" class="nav__link nav__link--home nav__link--active"
+            >Home</a
+          >
+          <a href="./projects.html" class="nav__link nav__link--MyProject"
+            >MyProject</a
+          >
+          <a href="Contact" class="nav__link nav__link--Contact">Contact</a>
+        </nav>
+      </div>
+      <section class="header__section">
+        <div class="section__photo-container">
+          <div class="photo-container__photo">
+            <img
+              src="./src/images/pixlr-bg-result.png"
+              alt="My portrait"
+              class="photo__img"
+            />
+          </div>
+          <div class="photo-container__contact-me-button">
+            <h3 class="contact-me-button__h3">Contact me</h3>
+            <button class="contact-me-button__button">
+              <img
+                src="./src/images/mail.svg"
+                alt="Contact me!"
+                class="contact-me-button__img"
+              />
+            </button>
+          </div>
+        </div>
+        <aside class="section__aside">
+          <h5 class="aside__h5">Hi, Bartek here!</h5>
+          <h1 class="aside__h1">Design and Frontend for you</h1>
+          <button class="button aside__button">
+            <div class="button__colored-container">
+              <p class="button__p button__p--colored">Read</p>
+            </div>
+            <p class="button__p">more</p>
+          </button>
+        </aside>
+      </section>
+    </header>
+    <main>
+      <section class="main__info-section">
+        <div class="info-section__info">
+          <h3 class="info__h3">3</h3>
+          <p class="info__p">Technologies:</p>
+          <ul class="info__ul">
+            <li class="info__li">React.js</li>
+            <li class="info__li">React Native</li>
+            <li class="info__li">Native Android</li>
+          </ul>
+        </div>
+        <div class="info-section__info">
+          <h3 class="info__h3">0.2</h3>
+          <p class="info__p">Years of profesional expirence</p>
+        </div>
+        <img
+          src="./src/images/arrow_down.png"
+          alt="Arrow down"
+          class="info-section__arrow"
+        />
+        <img
+          src="./src/images/arrow_up.png"
+          alt="Arrow up"
+          class="info-section__arrow"
+        />
+        <div class="info-section__info">
+          <h3 class="info__h3">6+</h3>
+          <p class="info__p">Succesfully made projects</p>
+        </div>
+        <div class="info-section__info">
+          <h3 class="info__h3">3</h3>
+          <p class="info__p">Succesfully made projects</p>
+        </div>
+      </section>
+      <section class="main__about-me-section">
+        <article class="about-me-section__something-about-me">
+          <div class="something-about-me__text-container">
+            <h3 class="something-about-me__h3">Something about me</h3>
+            <p class="something-about-me__p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              repellendus, voluptatem totam consequuntur magni iusto,
+              necessitatibus eaque tempore non placeat molestias et beatae a?
+              Odio veritatis molestias porro temporibus vel?
+            </p>
+          </div>
+        </article>
+        <article class="about-me-section__my-intrests">
+          <div class="my-intrests__text-container">
+            <h3 class="my-intrests__h3">My intrests</h3>
+            <p class="my-intrests__p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              omnis, assumenda ex tempora optio id cumque repellendus odio
+              doloribus.
+            </p>
+          </div>
+        </article>
+        <div class="about-me-section__my-last-project">
+          <h3 class="my-last-project__h3">My last project</h3>
+          <button class="my-last-project__button">
+            <img
+              src="./src/images/go_to.svg"
+              alt="My last project"
+              class="my-last-project__img"
+            />
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p aria-label="Copyright information" class="footer__p">
+        copyright Bartosz Ratajczyk 2022
+      </p>
+    </footer>
+  </body>
+</html>
