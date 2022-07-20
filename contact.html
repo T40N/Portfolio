@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global-values.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
+    <link rel="stylesheet" href="./styles/main-nav.css" />
+    <link rel="stylesheet" href="./styles/contact-styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__nav">
+        <h1 aria-label="Logo" class="header__logo"><span>Ba</span>rtek</h1>
+        <nav class="nav__links">
+          <a href="/" class="nav__link nav__link--home">Home</a>
+          <a href="./projects.html" class="nav__link nav__link--MyProject"
+            >MyProject</a
+          >
+          <a
+            href="/contact.html"
+            class="nav__link nav__link--Contact nav__link--active"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="fill-a-form">
+        <div class="fill-a-form__text-container">
+          <h1 class="fill-a-form__h1">Fill a form and send me e-mail!</h1>
+        </div>
+      </div>
+      <form action="" class="contact-form">
+        <div class="contact-form__input-container">
+          <div class="contact-form__bg-container">&nbsp;</div>
+          <input
+            type="email"
+            placeholder="content"
+            class="contact-form__input"
+          />
+          <div class="contact-form__label-container">
+            <h4 class="contact-form__label">email</h4>
+          </div>
+        </div>
+        <div
+          class="contact-form__input-container contact-form__input-container--textarea"
+        >
+          <div class="contact-form__bg-container">&nbsp;</div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="content"
+            class="contact-form__input contact-form__input--textarea"
+          ></textarea>
+          <div
+            class="contact-form__label-container contact-form__label-container--textarea"
+          >
+            <h4 class="contact-form__label">content</h4>
+          </div>
+        </div>
+      </form>
+      <button class="button form__button">
+        <div class="button__colored-container">
+          <p class="button__p button__p--colored">Read</p>
+        </div>
+        <p class="button__p">more</p>
+      </button>
+    </main>
+    <footer class="footer">
+      <p aria-label="Copyright information" class="footer__p">
+        copyright Bartosz Ratajczyk 2022
+      </p>
+    </footer>
+  </body>
+</html>
